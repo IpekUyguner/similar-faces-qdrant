@@ -1,0 +1,5 @@
+img2vec_pytorch==1.0.1
+numpy==1.24.3
+Pillow==9.4.0
+qdrant_client==1.1.6
+streamlit==1.22.0
