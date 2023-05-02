@@ -7,8 +7,8 @@ Download the python requirements for the project.
 pip install -r requirements.txt
 ```
 #### Dataset 
-In this project, 10K faces are used from CelebA dataset as database.
-http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html                                 
+In this project, 10K faces are used from [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset as database.
+                                 
 The embeddings&label ids are in 'embeddings.npy", "embeddings_ids.txt" respectively. 
 
 If you want to produce the embeddings from scratch or more embeddings, you can run the script below after you put your data location under the
@@ -25,7 +25,7 @@ config file.
  ```
  sudo docker run -p 6333:6333 qdrant/qdrant:latest
  ```
- To upload the vector embeddings to qdrant search engine, run the command below.
+ To upload the vector embeddings to qdrant search engine.
  ```
  python source/embedding_loader.py
  ```
